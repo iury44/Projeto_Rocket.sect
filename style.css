@@ -1,0 +1,148 @@
+/* font-family: 'JetBrains Mono', monospace;
+font-family: 'Open Sans', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono';
+}
+body{
+background-color:#2C2B3D;
+}
+.page{
+  width: 1092px;
+  margin: 0 auto ;
+  padding-top: 65px;
+  
+}
+
+.page nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFF;
+  text-align: center;
+  font-family: 'JetBrains Mono';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  
+}
+.page nav img {
+  width: 14px;
+  height: 16px;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  text-align: center;
+  font-family: 'JetBrains Mono';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  list-style: none;
+  transition: 0.8s;
+}
+nav ul li:hover{
+    color: #00BFA6;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.page main {
+  margin-top: 109px;
+  display: flex;
+  width: 1092px;
+  height: 283px;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  
+}
+.page main img {
+ 
+  height: 283px;
+  
+}
+
+.text{
+  width: 604px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.text h1{
+  color: #FFF;
+  width: 604px;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0 0 59px ;
+}
+.text h1 span{
+  color: #00BFA6;
+}
+.text p {
+  
+  color: #C2C2C2;
+  
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.text  p strong:last-child {
+  color: #00BFA6;
+}
+
+footer{
+
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top:167px ;
+}
+.linha_footer{
+  width: 568px;
+  height: 1px;
+  background-color: #00BFA6;
+  margin-bottom: 27px;
+}
+
+footer span{
+  color: #FFF;
+  text-align: center;
+  
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+footer span a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+footer span a:hover{
+  color: #00BFA6;
+  cursor: pointer;
+}
+.cadeado{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
